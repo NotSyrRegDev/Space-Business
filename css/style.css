@@ -1,0 +1,143 @@
+/*--------------------------Utility---------------------------*/
+* { font-family: 'Lato' , sans-serif; }
+.btn-primary { text-transform: uppercase ; background: #0E6FFF !important ; border-radius: 0px !important;  font-weight: bold;}
+.btn-primary-2 { text-transform: uppercase ; background: #0E6FFF !important ; border-radius: 5px !important;  font-weight: bold; height: 3.5rem !important; color: #fff !important; padding: 0 3rem !important; font-size: 16px;}
+
+.container { max-width: 1080px !important; margin: 0 auto;}
+.container-med { max-width: 1180px !important; margin: 0 auto;}
+.container-cu-big { max-width: 1280px !important; margin: 0 auto !important;}
+.container-cu-big-2 { max-width: 1380px !important; margin: 0 auto !important;}
+.flex-container { max-width: 1080px ; margin: 0 auto;}
+.border-b-1 { border: 2px solid #222;}
+
+/*--------------------------NAVBAR---------------------------*/
+.logo-div { margin: 8px 0;}
+.line-slide { background: #000 !important;}
+#navbar-flex-2 { justify-content: space-evenly !important; background: linear-gradient(80deg, #ffde98ec , #f3f3f2fd) ;}
+#navbar-flex-2 .navbar-list li a {color: #616161;}
+#navbar-flex-2 .navbar-list li a:hover {color: #616161; background: none; font-weight: bold;}
+.btn-in-touch { color: #0641d6; border: 2px solid #ffd01d !important; background: none !important;   }
+.btn-in-touch-side { color: #0641d6; border: 2px solid #ffd01d !important; background: none !important;  }
+.btn-in-touch:hover { color: #fff; background:  #ffd01d !important;  }
+.btn-in-touch-side:hover { color: #fff; background:  #ffd01d !important;  }
+
+.side___nav { display: none !important; height: 200px !important; width: 100% !important;  z-index: 4000; background: linear-gradient(#ffde98ec , #f3f3f2fd) ;  overflow-x: hidden;   margin: 0 auto !important; justify-content: center; align-items: center; text-align: center;  }
+
+.side___nav a {  margin: 10px 30px ; display: block; color:#616161 ;  }
+.side___nav a:hover {  color: #616161; background: none; font-weight: bold; }
+
+.bg-orange { background: rgb(255, 236, 183); }
+
+
+.row { max-width: none !important; margin-bottom: 0 !important;}
+.f-col { }
+.headline-light { color: #e0e0e0; letter-spacing: 1px; font-weight: bold; text-transform: uppercase; }
+.headline-bold { color: #111; letter-spacing: 1px; font-weight: bold; text-transform: uppercase; }
+.headline-bold { font-weight: bold; color: #000; font-size: 55px;}
+.headline-bold-2 { font-weight: bold; color: #000; font-size: 55px;}
+.headline-bold-big { font-weight: bold; color: #000; font-size: 48px;}
+.headline-bold-med { font-weight: bold; color: #000; font-size: 30px; margin: 0 30px;}
+.maxed-width { max-width: 700px !important; margin: 50px 30px; }
+.subheadine-med { font-size: 20px !important; margin: 0 30px;}
+.subheadine-small { font-size: 18px !important; margin: 0 30px;}
+.subheadine-tiny { font-size: 14px !important; margin: 0 30px;}
+.tag__heading{ font-size: 14px !important; margin: 0 30px; color: #888;}
+.card-design { background: #fff !important; height: 24rem !important; position: relative; }
+.ml-auto { margin-left: auto !important;}
+#design-conecpt { background: #f6f5f5;}
+.concept-each { background: #fff !important;}
+.small-img { width: 10%; height: 25%;}
+.pos-r { position: relative;}
+.card-design__bottom { position: absolute; bottom: 20px; left: 0px; width: 100% !important; }
+.g-col-4 { grid-template-columns: repeat(4 , 1fr); display: grid !important; }
+.g-col-5-cu { grid-template-columns: 2fr 1fr 1fr 1fr 1fr; display: grid !important;}
+.g-2fr { grid-template-columns: 2fr !important;}
+.call-to-action-design { height: 18rem !important;}
+.footer { background: #333;}
+.footer__company a{ display: block; color: #fff; margin: 10px 0;}
+.about-website img { margin:  0 30px !important;}
+.footer__company h2 { font-weight: bold !important; }
+
+@media screen and (max-width: 800px) {
+    #navbar-flex-2  {  justify-content: space-between !important; }
+    #navbar-flex-2 ul { display: none !important;}
+    .btn-in-touch { display: none !important;}
+    .logo-div { order: 3;}
+    .opening-side { display: block !important; order: 5;}
+    .show-side { display: flex !important; }
+    .headline-light {font-size: 14px !important; }
+    .headline-bold { font-size: 25px !important;}
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .headline-bold { font-size: 44px !important;}
+
+    
+    
+}
+
+@media screen and (max-width: 1100px) {
+    .headline-bold { font-size: 40px !important;}
+    .g-col-5-cu { grid-template-columns: 2fr 1fr 1fr ; display: grid !important; margin: 0 40px !important;}
+    .concept  { flex-direction: column; }
+    /* .concept  .flex-col-l{ display: flexbox !important;  } */
+   
+}
+
+@media screen and (max-width: 1000px) {
+    .headline-bold { font-size: 38px !important;}
+    .headline-bold-med { font-size:22px !important;}
+
+   
+}
+
+@media screen and (max-width: 900px) {
+    .headline-bold { font-size: 30px !important;}
+   
+    .col-1-2 .object-img { height: 100px !important; width:100px !important;  }
+    .card-design p { font-size: 13px !important;}
+    .leader-ship-team { }
+    .leader-ship-team .g-col-4{ grid-template-columns: repeat(2 , 1fr);}
+    .user-info__opinion { margin: 0 15px!important;}
+   
+}
+@media screen and (max-width: 800px) {
+  
+    .headline-bold-med { font-size: 18px !important;}
+    
+    .col-1-2 img { height: 70vh !important;}
+    .user-info h2{ margin: 0 !important;}
+    .card-design p { font-size: 12px !important;}
+    .about-website p { font-size: 14px !important;}
+    .footer__company h2 {font-size: 20px !important;}
+    .footer__bottom .f-sp p {font-size: 15px !important;}
+    
+}
+@media screen and (max-width: 750px) {
+    .card-design { height: 14rem !important;}
+    .user-info__opinion { margin: 0 15px!important;}
+}
+
+@media screen and (max-width: 600px) {
+    .col-1-2 .object-img { height: 50px !important; width: 50px !important;  }
+    .headline-bold { font-size: 18px !important;}
+    .btn-primary { font-size: 12px !important; padding: 5px !important;}
+    .col-1-2 img { height: 45vh !important;}
+    .user-info h2 { font-size: 15px !important;}
+    .user-info h5 { font-size: 12px !important;}
+    .user-info h2{ margin: 0 !important;}
+    .headline-bold-med { width: 100% !important;}
+    .leader-ship-team .g-col-4{ grid-template-columns: repeat(1 , 1fr);}
+    .g-col-5-cu { grid-template-columns: 2fr 1fr !important; display: grid !important; }
+    .call-to-action-design .call-info p { font-size: 14px !important;}
+    .call-to-action-design button { font-size: 12px !important; padding: 0.5rem  !important;}
+   .about-website p { font-size: 12px !important;}
+   .footer__bottom .f-sp p {font-size: 12px !important;}
+   .post-requiremnt-image { order: 0;}
+   .post-requiremnt-info { order: 2;}
+}
+
+@media screen and (max-width: 400px)  {
+    .g-col-5-cu { grid-template-columns: 2fr 1fr !important; display: grid !important; }
+}
